@@ -1,0 +1,93 @@
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <title>My Contact list - Webcall Example</title>
+   <meta http-equiv="refresh" content="600">
+   
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="js/webcall-mapper.js"></script>
+
+	<style type="text/css">
+		body {
+			font-size: 20px; 
+			letter-spacing: 0px; 
+			line-height: 1.2; 
+			font-family:'MagicMedium', Helvetica, Arial; 
+			font-weight: normal;
+		}
+		.webcall-source {
+			border: 0px;
+			padding: 8px;
+			border-radius: 10px;
+			background-color: #109acd;
+			width: 350px;
+			color: #FFFFFF;
+			font-weight: bold;
+			text-align: right;
+		}
+		.webcall-ext-source {
+			display: inline;
+
+		}
+		.webcall-ext-target {
+			display: inline;
+			border-radius: 8px;
+			padding: 5px;
+			border: 1px solid #f2f2f2;
+			background-color: #f2f2f2;
+			cursor: pointer;
+		}
+		.webcall-ext-target:hover {
+			border: 1px solid #9dc9ff;
+			background-color: #c3e2fa;
+
+		}
+		.contactlist-item {
+			border: 0px;
+			padding: 10px;
+			border-radius: 8px;
+			margin-top: 10px;
+			background-color: #f2f2f2;
+			width: 350px;
+			color: #000000;
+			font-weight: normal;
+			text-align: right;
+			vertical-align: baseline;
+		}
+		.contactlist-name {
+			padding-right: 30px;
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+<body>
+<div id="main-content">
+	<div class="webcall-source">
+		<span class="contactlist-name">My phone:</span> <div class="webcall-ext-source">102 21 23</div>
+	</div>
+	
+	<br>
+	
+	<div class="contactlist-item">
+		<span class="contactlist-name">Mitch Emhoff</span> <div class="webcall-ext-target">325 06 14</div>
+	</div>
+	
+	<div class="contactlist-item">
+		<span class="contactlist-name">Lyle Haggerty</span> <div class="webcall-ext-target">222 98 70</div>
+	</div>
+	
+		<div class="contactlist-item">
+		<span class="contactlist-name">Ally Hextall</span> <div class="webcall-ext-target">122 45 89</div>
+	</div>
+	
+	<div class="contactlist-item">
+		<span class="contactlist-name">Leonora Orantes</span> <div class="webcall-ext-target">111 93 00</div>
+	</div>
+
+
+</div>
+</body>
+</html>
