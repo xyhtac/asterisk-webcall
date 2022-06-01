@@ -59,11 +59,11 @@ if (!empty($params['phone']) && !empty($params['exten']) && $checkhash == $param
                 fclose($socket);
 
         } else {
-                echo "Unable to determine number from (" . $params['phone'] . ")\r\n";
+                echo "Unable to extract number from (" . $params['phone'] . ")\r\n";
         }
 
 } else {
-   echo "Wrong number or checksum error.";
+   echo "Wrong number or blueprint error.";
 };
 ?>
 
