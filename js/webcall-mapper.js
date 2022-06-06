@@ -22,7 +22,7 @@ $( document ).ready(function() {
 		$("div.webcall-ext-target").off( "click");
 
 		$("div.webcall-ext-target").click (function(){
-			callext =  $(this).html();
+			callext = $(this).html();
 			callext = callext.replace(/^\+7/g, '8');
 			callext = callext.replace(/\D/g, '');
 			xrnd = (Math.round(0xFFFFFF * Math.random()).toString(16) ).replace(/([a-f0-9]{6}).+/, "#$1").toUpperCase();
