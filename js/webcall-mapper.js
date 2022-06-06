@@ -3,7 +3,7 @@
 
 $( document ).ready(function() {
 
-	myext = $("div.webcall-ext-source").html();
+    myext = $("div.webcall-ext-source").html();
 
     var hexid = (Math.round(0xFFFFFF * Math.random()).toString(16) ).replace(/([a-f0-9]{6}).+/, "#$1").toUpperCase();
     $("<iframe frameborder='0' scrolling='no' id='webcall-activator-" + hexid + "' width='1' height='1'></iframe>").appendTo("#main-content");
